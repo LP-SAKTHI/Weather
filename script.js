@@ -85,27 +85,27 @@ function weatherDetails(info)
 
         if(id == 800)
         {
-            images.src = "/icons/clouds-and-sun.png"
+            images.src = "https://cdn-icons-png.flaticon.com/512/6581/6581533.png"
         }
         else if(id >=200 && id <= 232)
         {
-            images.src = "/icons/storm.png"
+            images.src = "https://cdn-icons.flaticon.com/png/512/2864/premium/2864403.png?token=exp=1642751918~hmac=6d2e667defe3d3b85050f4881617a78d"
         }
         else if(id >=600 && id <= 622)
         {
-            images.src = "/icons/snow.png"
+            images.src = "https://cdn-icons.flaticon.com/png/512/2315/premium/2315377.png?token=exp=1642751975~hmac=939869ae211a8c7f1f1b03e97f525a60"
         }
         else if(id >=701 && id <= 781)
         {
-            images.src = "/icons/haze.png"
+            images.src = "https://cdn-icons-png.flaticon.com/512/1779/1779862.png"
         }
         else if(id >= 801 && id <= 804)
         {
-            images.src = "/icons/cloudy-day.png"
+            images.src = "https://cdn-icons.flaticon.com/png/512/3093/premium/3093390.png?token=exp=1642752079~hmac=43b76cb1fdc94b4a07089ff487ae503c"
         }
         else if((id >= 500 && id <= 531) || (id >=300 && id<= 321))
         {
-            images.src = "/icons/raining.png"
+            images.src = "https://cdn-icons-png.flaticon.com/512/1146/1146858.png"
         }
 
         weatherPart.querySelector(".temp .numb").innerText = Math.floor(temp);
